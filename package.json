@@ -1,0 +1,14 @@
+{
+  "name": "uvu-before-fail",
+  "version": "0.0.0",
+  "description": "A minimum reprository to show uvu not reporting an error when an exception is thrown in the before context",
+  "main": "index.js",
+  "scripts": {
+    "test": "uvu . index\\.js"
+  },
+  "author": "Jay McDoniel <me@jaymcdoniel.dev>",
+  "license": "MIT",
+  "dependencies": {
+    "uvu": "^0.5.3"
+  }
+}
